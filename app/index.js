@@ -3,8 +3,8 @@ import ReactDOM  from 'react-dom';
 
 import App from './components/app';
 // import game classes
-import Hand from './game/Hand';
-import Deck from './game/Deck';
+import Hand from './game/hand.js';
+import Deck from './game/deck.js';
 // import game logic
 import { getWinner, dealerDrawing } from './game';
 
