@@ -1,3 +1,14 @@
+
+```
+wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+source ~/.bashrc
+nvm install 10
+nvm use 10
+npm install
+npm start
+```
+
+
 # Blackjack
 
 This is a blackjack app built using ES6 classes for game logic which are then rendered using [React](https://facebook.github.io/react/) as a view layer. The build tool used is [Webpack](https://webpack.github.io/).
