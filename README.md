@@ -4,7 +4,7 @@ wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 source ~/.bashrc
 nvm install 10
 nvm use 10
-npm install
+npm install --unsafe-perm=true --allow-root
 npm start
 ```
 
